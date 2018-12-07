@@ -2,6 +2,22 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
+	font: 100%/1.4 "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+     background-color: #000000;
+     margin: 0;
+     padding: 0;
+     color: #000;
+}
+
+
+a:link {
+     color: #001C99;
+}
+a:visited {
+     color: #FFFFFF;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
 .homePage {
 	background: #222222;
@@ -43,4 +59,3 @@ body {
 	width: 100%;
 	height: 50px;
 	text-align: center;
-}
